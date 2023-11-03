@@ -6,7 +6,7 @@ const CounterWithCustomHook = () => {
 
   return (
     <>
-        <h1>Counter with Hook: { counter } </h1>
+        <h1>Counter with Custom Hook: { counter } </h1>
         <hr />
 
         <button className="btn btn-primary" onClick={() => incrementCounter(1)}>+1</button>
